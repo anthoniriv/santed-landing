@@ -1,0 +1,46 @@
+.contactB_container{
+    padding: 100px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+}
+
+.contactB_wrapper{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.small__title{
+  color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+.contactBanner__wrapper {
+    width: 90vw;
+    background-color: #123BA5;
+    border-radius: 12px;
+    padding: 5rem 0rem;
+    text-align: center;
+  }
+
+.contactBanner__heading {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .contactBanner__heading {
+      font-size: 2.8rem;
+    }
+    .small__title{
+        font-size: 1.4rem;
+    }
+}

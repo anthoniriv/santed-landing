@@ -1,0 +1,142 @@
+.pricing__section {
+    padding: 100px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+  }
+  
+  .pricing__container-card {
+    background: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+    width: 280px;
+    height: 500px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .pricing__container-card:hover {
+    transform: scale(0.95);
+    background: linear-gradient(45deg, #e97406 0%, #fb7c27 100%);
+  }
+  
+  .pricing__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pricing__wrapper {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+  }
+  
+  button.rec-dot{
+    background-color: rgb(16, 31, 235);
+    box-shadow: 0 0 1px 3px rgba(7, 26, 131, 0.5);
+  }
+  
+  button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1px 3px #FF7800;
+  }
+
+  .rec.rec-arrow{
+    color: #fff;
+    background-color: #276AFB;
+  }
+  
+  .pricing__heading {
+    color: #123BA5;
+    font-size: 48px;
+    margin-bottom: 60px;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .li-expensive{
+      max-width: 185px;
+      text-align: center;
+  }
+
+  .li-expensive2{
+      text-align: center;
+  }
+  .pricing__container-cardInfo {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .pricing__container-cardInfo h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  
+  .pricing__container-cardInfo h4 {
+    font-size: 40px;
+  }
+  
+  .pricing__container-cardInfo p {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .pricing__container-features {
+    margin: 16px 0 32px;
+    list-style: none;
+  }
+  
+  .pricing__container-features li {
+    margin-bottom: 10px;
+  }
+  
+  .pricing__container-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    margin: 24px 0;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .pricing__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .pricing__container-card {
+      width: 90%;
+    }
+  
+    .pricing__wrapper {
+      width: 90vw;
+      margin: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .pricing__container-card:nth-child(2) {
+      transform: scale(1);
+      background: #242424;
+      margin: 24px;
+    }
+  
+    .pricing__container-card:hover {
+      transform: none;
+    }
+  }
