@@ -57,7 +57,7 @@ function ContactForm() {
         <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}>
           <h1 className='title'>¡Felicidades!</h1>
           <p className='subtitle'>Mensaje enviado correctamente.</p>
-          <Lottie options={defaultOptions} width={400} height={400} />
+          <Lottie options={defaultOptions} width={300} height={300} />
         </PopUp>
       </div>
     </IconContext.Provider>
