@@ -9,28 +9,6 @@ import {MdFactCheck} from 'react-icons/md'
 import {MdBuildCircle} from 'react-icons/md'
 import {GiCargoCrane} from 'react-icons/gi'
 
-const MyDot = ({ isActive }) => (
-    <span
-      style={{
-        display: 'inline-block',
-        marginTop: '50px',
-        height: isActive ? '20px' : '10px',
-        width: isActive ? '20px' : '10px',
-        background: '#276AFB',
-        borderRadius: '15px'
-      }}
-    ></span>
-  )
-const cols=5;
-const gap=10;
-
-const resizeCarousel=()=>{
-    if(window.innerWidth<=960){
-        cols=1;
-        gap=25;
-    }
-}
-
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
