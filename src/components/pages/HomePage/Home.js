@@ -5,7 +5,7 @@ import Pricing from '../../Pricing'
 import Slider from '../../Slider'
 import HeroVideo from '../../HeroVideo'
 import Projects from '../../Projects'
-import {homeObjFour, homeObjOne, homeObjThree, homeObjTwo} from './Data'
+import {homeObjFour, homeObjThree, homeObjTwo} from './Data'
 
 function Home() {
   return (
