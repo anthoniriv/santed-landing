@@ -83,12 +83,12 @@ function Footer() {
               {
                 type: 'a',
                 title: 'Servicios',
-                path: '#projectos',
+                path: '#servicios',
               },
               {
                 type: 'a',
                 title: 'Proyectos',
-                path: '#contacto',
+                path: '#projectos',
               },
             ]}
           />
