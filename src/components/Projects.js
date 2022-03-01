@@ -16,7 +16,7 @@ function Projects() {
   return (
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
         <div>
-            <div className='projects_container'>
+            <div id='projectos' className='projects_container'>
                 <div className='projects'>
                     <h1 className='title_section'>NUESTROS PROYECTOS</h1>
                     <div className='projects_carousel'>

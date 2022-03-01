@@ -21,7 +21,7 @@ function Pricing() {
   return (
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
         <div>
-          <div className='pricing__section'>
+          <div id='servicios' className='pricing__section'>
               <div className='pricing__wrapper'>
                   <h1 className='pricing__heading'>NUESTROS SERVICIOS</h1>
                     <Carousel breakPoints={breakPoints}>

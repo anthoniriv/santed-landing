@@ -72,23 +72,23 @@ function Footer() {
             links={[
               {
                 title: 'Inicio',
-                path: '/',
-                type: 'Link',
+                path: '#inicio',
+                type: 'a',
               },
               {
-                type: 'Link',
+                type: 'a',
                 title: 'Nosotros',
-                path: '/about',
+                path: '#nosotros',
               },
               {
-                type: 'Link',
+                type: 'a',
                 title: 'Servicios',
-                path: '/projects',
+                path: '#servicios',
               },
               {
-                type: 'Link',
-                title: 'Projectos',
-                path: '/contact',
+                type: 'a',
+                title: 'Proyectos',
+                path: '#projectos',
               },
             ]}
           />
@@ -110,7 +110,7 @@ function Footer() {
                 path: 'mailto:consultas@santed.com.pe',
               },
               {
-                title: 'Calle 153 Alt. 5',
+                title: 'Av. Metropolitana N° 933 Mz. N Lt. 008, Urb Santa Isolina I Etapa - Comas',
                 path: 'https://goo.gl/maps/aMREgYju1tKyjHgq5',
               },
             ]}

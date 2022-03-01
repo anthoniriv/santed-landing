@@ -12,6 +12,7 @@ export const homeObjOne={
 }
 
 export const homeObjTwo = {
+    section:'',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -25,6 +26,7 @@ export const homeObjTwo = {
   };
   
   export const homeObjThree = {
+    section:'nosotros',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -39,6 +41,7 @@ export const homeObjTwo = {
   };
   
   export const homeObjFour = {
+    section:'',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,

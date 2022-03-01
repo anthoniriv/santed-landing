@@ -39,28 +39,28 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>Inicio</Link>
+                <a href="#inicio" className='nav-links' onClick={closeMobileMenu}>Inicio</a>
               </li>
               <li className='nav-item'>
-                <Link to='/nosotros' className='nav-links' onClick={closeMobileMenu}>Nosotros</Link>
+                <a href='#nosotros' className='nav-links' onClick={closeMobileMenu}>Nosotros</a>
               </li>
               <li className='nav-item'>
-                <Link to='/servicios' className='nav-links' onClick={closeMobileMenu}>Servicios</Link>
+                <a href='#servicios' className='nav-links' onClick={closeMobileMenu}>Servicios</a>
               </li>
               <li className='nav-item'>
-                <Link to='/proyectos' className='nav-links' onClick={closeMobileMenu}>Proyectos</Link>
+                <a href='#projectos' className='nav-links' onClick={closeMobileMenu}>Proyectos</a>
               </li>
               <li className='nav-btn'>
                 {button ? (
-                  <Link to='/contact' className='btn-link'>
+                  <a href='#contacto' className='btn-link'>
                     <Button buttonStyle='btn--outline'>Contacto</Button>
-                  </Link>
+                  </a>
                 ) :  (
-                  <Link to='/contact' className='btn-link' onClick={closeMobileMenu}>
+                  <a href='#contacto' className='btn-link' onClick={closeMobileMenu}>
                     <Button buttonStyle='btn--outline'
                             buttonSize='btn-mobile'
                     >Contacto</Button>
-                  </Link>
+                  </a>
                 )}
               </li>
             </ul>
