@@ -19,7 +19,7 @@ function Slider() {
           <div className='logos__container'>
             <h1 className='title__companies'>Nuestros Clientes</h1>
                 <div className='carousel__container'>
-                <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay={true} autoPlaySpeed={1000}>
+                <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay={true} autoPlaySpeed={3000}>
                         <img className='img_logos' width="100%" src='images/viva_logo.png' alt='Concar' />
                         <img className='img_logos' width="100%" src='images/concar_logo.png' alt='Tower' />
                         <img className='img_logos' width="100%" src='images/grañaymontero_lgo.png' alt='Tower' />

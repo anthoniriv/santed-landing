@@ -4,12 +4,12 @@ import {Link} from 'react-router-dom'
 import './HeroSection.css'
 
 function HeroSection({
-    lightBg, topLine, lightText, lightTextDesc, headline, description, 
+    section, lightBg, topLine, lightText, lightTextDesc, headline, description, 
     buttonLabel, img, alt, imgStart
 }) {
   return (
     <>
-        <div 
+        <div id={section}
         className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
             <div className='container'>
                 <div className='row home__hero-row'
@@ -20,9 +20,9 @@ function HeroSection({
                             <div className='top-line'>{topLine}</div>
                             <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                             <p className={lightTextDesc? 'home__hero-subtitle':'home__hero-subtitle dark'}>{description}</p>
-                            <Link to='/contacto'>
+                            <a href='#contacto'>
                                 <Button buttonSize='btn--wide' buttonColor='green'>{buttonLabel}</Button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className='col'>

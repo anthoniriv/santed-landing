@@ -5,6 +5,7 @@ import Pricing from '../../Pricing'
 import Slider from '../../Slider'
 import HeroVideo from '../../HeroVideo'
 import Projects from '../../Projects'
+import ContactForm from '../../ContactForm'
 import {homeObjFour, homeObjThree, homeObjTwo} from './Data'
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
       <Pricing/>
       <Slider/>
       <Projects/>
-      <ContactBanner/>
+      <ContactForm/>
     </>
   )
 }

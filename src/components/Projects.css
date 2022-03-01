@@ -3,7 +3,7 @@
 }
 
 .projects_container{
-    padding: 100px 0 80px;
+    padding: 100px 0 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
