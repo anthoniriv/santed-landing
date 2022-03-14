@@ -32,9 +32,9 @@ function Pricing() {
                                     <div className='icon'>
                                         <AiFillThunderbolt />
                                     </div>
-                                    <h3>Trabajos</h3>
-                                    <h3>de</h3>
-                                    <h3>Baja Tensión</h3>
+                                    <h3>Mantenimiento de</h3>
+                                    <h3>baja, media</h3>
+                                    <h3>y alta Tensión</h3>
                                     <ul className='pricing__container-features'>
                                         <li className='li-expensive'>Montaje, instalación y mantenimiento de torres de iluminación.</li>
                                         <li className='li-expensive'>Instalación y mantenimiento de luces de emergencia.</li>
@@ -52,7 +52,7 @@ function Pricing() {
                                     </div>
                                     <h3>Montaje y</h3>
                                     <h3>Mantenimiento de</h3>
-                                    <h3>Media Tensión</h3>
+                                    <h3>Linea de Transmisión</h3>
                                     <ul className='pricing__container-features'>
                                         <li className='li-expensive'>Mantenimiento de sub estaciones.</li>
                                         <li className='li-expensive'>Seccionadores de potencia.</li>
@@ -69,9 +69,9 @@ function Pricing() {
                                     <div className='icon'>
                                         <AiFillThunderbolt />
                                     </div>
-                                    <h3>Montaje y</h3>
-                                    <h3>Mantenimiento de</h3>
-                                    <h3>Alta Tension</h3>
+                                    <h3>Fabricación y</h3>
+                                    <h3>Montaje de</h3>
+                                    <h3>Subestaciones</h3>
                                     <ul className='pricing__container-features'>
                                         <li className='li-expensive'>Montaje de sub estaciones patio de llaves, 60,138,220, Kv.</li>
                                         <li className='li-expensive'>Mantenimiento de transformadores de potencia Alta Tensión.</li>
